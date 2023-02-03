@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--style.css-->
+    <link rel="stylesheet" href="style.css">
+    <!--fontawesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/v4-shims.css">
+    <title>SocialBook</title>
+</head>
+
+<body>
+    <!-- nav bar cont. start-->
+    <nav>
+        <div class="nav-left">
+            <img src="Socialbook_img/logo.png" alt="Socialbook_img/logo.png" class="logo">
+            <ul>
+                <li> <img src="Socialbook_img/notification.png" alt=""></li>
+                <li> <img src="Socialbook_img/inbox.png" alt=""></li>
+                <li> <img src="Socialbook_img/video.png" alt=""></li>
+            </ul>
+        </div>
+        <div class="nav-right">
+            <div class="search-box">
+                <img src="Socialbook_img/search.png" alt="">
+                <input type="text" placeholder="search now">
+            </div>
+            <div class="nav-user-icon online" onclick="srettingsMenuToggle()">
+                <img src="Socialbook_img/profile-pic.png">
+            </div>
+        </div>
+        <!--profile menu dropdown-->
+        <div class="settings-menu">
+            <div id="dark-btn">
+                <span></span>
+            </div>
+            <div class="setting-menu-inner">
+                <div class="user-profile">
+                    <img src="Socialbook_img/profile-pic.png">
+                    <div>
+                        <p>John Nicholson</p>
+                        <a href="#"> See your profile</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="user-profile">
+                    <img src="Socialbook_img/feedback.png">
+                    <div>
+                        <p>Give Feedback</p>
+                        <a href="#">Help us to improve the new desing</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="settings-links">
+                    <img src="Socialbook_img/setting.png" class="settings-icon">
+                    <a href="#">Settings & Privacy <img src="Socialbook_img/arrow.png" width="10px" ></a>
+                </div>
+                <div class="settings-links">
+                    <img src="Socialbook_img/help.png" class="settings-icon">
+                    <a href="#">Help & Support<img src="Socialbook_img/arrow.png" width="10px" ></a>
+                </div>
+                <div class="settings-links">
+                    <img src="Socialbook_img/display.png" class="settings-icon">
+                    <a href="#">Display & Accessiblity <img src="Socialbook_img/arrow.png" width="10px" ></a>
+                </div>
+                <div class="settings-links">
+                    <img src="Socialbook_img/logout.png" class="settings-icon">
+                    <a href="#">Logout <img src="Socialbook_img/arrow.png" width="10px" ></a>
+                </div>
+            </div>
+
+        </div>
+    </nav>
+
+    <!-- nav bar cont. end-->
+    <div class="container">
+        <!------------------left-sidebar ----------------------------------------------->
+        <div class="left-sidebar">
+            <div class="imp-links">
+
+                <a href="#"> <img src="Socialbook_img/news.png"> Letest News</a>
+                <a href="#"> <img src="Socialbook_img/friends.png">Friends</a>
+                <a href="#"> <img src="Socialbook_img/group.png">Group</a>
+                <a href="#"> <img src="Socialbook_img/marketplace.png">Marketplace</a>
+                <a href="#"> <img src="Socialbook_img/watch.png">Watch</a>
+                <a href="#">See More </a>
+            </div>
+            <div class="shortcut-links">
+                <p>Your Shortcuts</p>
+                <a href="#"> <img src="Socialbook_img/shortcut-1.png"> Web Developers</a>
+                <a href="#"> <img src="Socialbook_img/shortcut-2.png"> Web Desing course</a>
+                <a href="#"> <img src="Socialbook_img/shortcut-3.png">Full Stack Developers </a>
+                <a href="#"> <img src="Socialbook_img/shortcut-4.png"> Website Experts</a>
+
+            </div>
+
+        </div>
+        <!------------------main-content ----------------------------------------------->
+
+        <div class="main-content">
+
+            <div class="story-gallery">
+                <div class="story story-1">
+                    <img src="Socialbook_img/upload.png" alt="">
+                    <P>Post Story</P>
+                </div>
+                <div class="story story-2">
+                    <img src="Socialbook_img/member-1.png" alt="">
+                    <P>Alison Mina</P>
+                </div>
+                <div class="story story-3">
+                    <img src="Socialbook_img/member-2.png" alt="">
+                    <P>Jackson Aston</P>
+                </div>
+                <div class="story story-4">
+                    <img src="Socialbook_img/member-3.png" alt="">
+                    <P>samona Rose</P>
+                </div>
+                <div class="story story-5">
+                    <img src="Socialbook_img/member-4.png" alt="">
+                    <P>M H Alison</P>
+                </div>
+            </div>
+
+            <div class="write-post-container">
+                <div class="user-profile">
+                    <img src="Socialbook_img/profile-pic.png">
+                    <div>
+                        <p>John Nicholson</p>
+                        <small>Public   <i class="fa fa-caret-down" aria-hidden="true"></i>  </small>
+                    </div>
+                </div>
+                <div class="post-input-container">
+                    <textarea rows="3" placeholder="What's on your mind, john"></textarea>
+                    <div class="add-post-links">
+                        <a href="#"><img src="Socialbook_img/live-video.png"> Live Video</a>
+                        <a href="#"><img src="Socialbook_img/photo.png"> Photo/Video</a>
+                        <a href="#"><img src="Socialbook_img/feeling.png"> Feling/Activity</a>
+                    </div>
+                </div>
+            </div>
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="Socialbook_img/profile-pic.png">
+                        <div>
+                            <p>John Nicholson</p>
+                            <span>August 18 2021, 4:18 pm</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fa fa-ellipsis-v" aria-hidden="true"></i></a>
+                </div>
+
+                <p class="post-text"><span> Lorem ipsum,</span> dolor sit amet consectetur adipisicing elit. Facere reprehenderit quos veniam placeat doloribus. Quibusdam fugit deleniti nulla sequi dolores dicta impedit consequuntur sed dolorem, quia cumque ab praesentium
+                    magnam! <a href="#">#Lorem ipsum, dolor </a> <a href="#"> #Website</a></p>
+
+                <img src="Socialbook_img/feed-image-1.png" class="post-img">
+                <div class="post-row">
+                    <div class="actvity-icons">
+                        <div><img src="Socialbook_img/like-blue.png">120</div>
+                        <div><img src="Socialbook_img/comments.png">20</div>
+                        <div><img src="Socialbook_img/share.png">6</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="Socialbook_img/profile-pic.png"> <i class="fa fa-caret-down" aria-hidden="true"></i>
+                    </div>
+                </div>
+            </div>
+            <!-- new post 2    ----------------------------------------------       -->
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="Socialbook_img/profile-pic.png">
+                        <div>
+                            <p>John Nicholson</p>
+                            <span>August 17 2021, 12:18 pm</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fa fa-ellipsis-v" aria-hidden="true"></i></a>
+                </div>
+
+                <p class="post-text"><span> Lorem ipsum,</span> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque, tempora! magnam! <a href="#">#Lorem ipsum, dolor </a> <a href="#"> #Website</a></p>
+
+                <img src="Socialbook_img/feed-image-2.png" class="post-img">
+                <div class="post-row">
+                    <div class="actvity-icons">
+                        <div><img src="Socialbook_img/like-blue.png">150</div>
+                        <div><img src="Socialbook_img/comments.png">46</div>
+                        <div><img src="Socialbook_img/share.png">20</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="Socialbook_img/profile-pic.png"> <i class="fa fa-caret-down" aria-hidden="true"></i>
+                    </div>
+                </div>
+            </div>
+            <!-- new post 3   ----------------------------------------------       -->
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="Socialbook_img/profile-pic.png">
+                        <div>
+                            <p>John Nicholson</p>
+                            <span>August 17 2021, 10:32 pm</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fa fa-ellipsis-v" aria-hidden="true"></i></a>
+                </div>
+
+                <p class="post-text"><span> Lorem ipsum,</span> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque, tempora! magnam! <a href="#">#Lorem ipsum, dolor </a> <a href="#"> #Website</a></p>
+
+                <img src="Socialbook_img/feed-image-3.png" class="post-img">
+                <div class="post-row">
+                    <div class="actvity-icons">
+                        <div><img src="Socialbook_img/like-blue.png">640</div>
+                        <div><img src="Socialbook_img/comments.png">146</div>
+                        <div><img src="Socialbook_img/share.png">21</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="Socialbook_img/profile-pic.png"> <i class="fa fa-caret-down" aria-hidden="true"></i>
+                    </div>
+                </div>
+            </div>
+            <!-- new post 4    ----------------------------------------------       -->
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="Socialbook_img/member-3.png">
+                        <div>
+                            <p>Samona Rose</p>
+                            <span>August 18 2021, 9:56 am</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fa fa-ellipsis-v" aria-hidden="true"></i></a>
+                </div>
+
+                <p class="post-text"><span> Lorem ipsum,</span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt exercitationem earum aspernatur sit sint reprehenderit minus id sunt, vel quasi! Iusto dolores pariatur tempora nisi nihil cumque ab quis error
+                    sequi quo delectus dolorum nostrum est, molestias odit omnis incidunt, at possimus soluta asperiores earum beatae laborum? Aperiam inventore officiis dolorum repellat iusto. Magnam provident tempora necessitatibus laboriosam, impedit
+                    ea nostrum excepturi adipisci nihil maxime, corrupti suscipit! Tempore nesciunt expedita asperiores. Reiciendis, fugiat earum quos expedita voluptatum officia voluptate pariatur repudiandae dolore voluptatem ducimus quia nisi obcaecati
+                    sint tempore ipsum laboriosam culpa aperiam iure? Suscipit explicabo labore accusantium assumenda sit? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque, tempora! magnam! <a href="#">#Lorem ipsum, dolor </a> <a href="#"> #Website</a></p>
+
+                <img src="Socialbook_img/feed-image-4.png" class="post-img">
+                <div class="post-row">
+                    <div class="actvity-icons">
+                        <div><img src="Socialbook_img/like.png">210</div>
+                        <div><img src="Socialbook_img/comments.png">146</div>
+                        <div><img src="Socialbook_img/share.png">38</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="Socialbook_img/profile-pic.png"> <i class="fa fa-caret-down" aria-hidden="true"></i>
+                    </div>
+                </div>
+            </div>
+            <!-- new post 5   ----------------------------------------------       -->
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="Socialbook_img/member-2.png">
+                        <div>
+                            <p>Jackson Aston</p>
+                            <span>August 16 2021, 7:03 pm</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fa fa-ellipsis-v" aria-hidden="true"></i></a>
+                </div>
+
+                <p class="post-text"><span> Lorem ipsum,</span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt sed magnam dolore atque perspiciatis quaerat itaque explicabo reiciendis suscipit voluptate! At ipsam ullam earum quisquam, doloremque assumenda numquam
+                    laboriosam magni. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque, tempora! magnam! <a href="#">#Lorem ipsum, dolor </a> <a href="#"> #Website</a></p>
+
+                <img src="Socialbook_img/feed-image-5.png" class="post-img">
+                <div class="post-row">
+                    <div class="actvity-icons">
+                        <div><img src="Socialbook_img/like-blue.png">1.2k</div>
+                        <div><img src="Socialbook_img/comments.png">346</div>
+                        <div><img src="Socialbook_img/share.png">19</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="Socialbook_img/profile-pic.png"> <i class="fa fa-caret-down" aria-hidden="true"></i>
+                    </div>
+                </div>
+            </div>
+            <button type="button" class="load-more">Load More</button>
+
+        </div>
+        <!------------------right-sidebar ----------------------------------------------->
+
+        <div class="right-sidebar">
+            <div class="sideber-title">
+                <h4>Events</h4>
+                <a href="#"> See All</a>
+            </div>
+
+            <div class="event">
+                <div class="left-event">
+                    <h3>22</h3>
+                    <span>November</span>
+                </div>
+                <div class="right-event">
+                    <h4>Social Media</h4>
+
+                    <p><i class="fa fa-map-marker" aria-hidden="true"></i> Willson Tech Park</p>
+                    <a href="#"> More Info</a>
+                </div>
+            </div>
+            <div class="event">
+                <div class="left-event">
+                    <h3>18</h3>
+                    <span>December</span>
+                </div>
+                <div class="right-event">
+                    <h4>Mobile Marketing</h4>
+                    <p><i class="fa fa-map-marker" aria-hidden="true"></i> willson Tech Park</p>
+                    <a href="#"> More Info</a>
+                </div>
+            </div>
+
+            <div class="sideber-title">
+                <h4>Advertisement</h4>
+                <a href="#">Close</a>
+            </div>
+            <img src="Socialbook_img/advertisement.png" alt="ads">
+
+            <div class="sideber-title">
+                <h4>Conversation</h4>
+                <a href="#">Hide Chat</a>
+            </div>
+            <div class="online-list">
+                <div class="online">
+                    <img src="Socialbook_img/member-1.png" alt="">
+                </div>
+                <p>Alison Mina</p>
+            </div>
+            <div class="online-list">
+                <div class="online">
+                    <img src="Socialbook_img/member-2.png" alt="">
+                </div>
+                <p>Jackson Aston</p>
+            </div>
+            <div class="online-list">
+                <div class="online">
+                    <img src="Socialbook_img/member-3.png" alt="">
+                </div>
+                <p> samona Rose</p>
+            </div>
+            <div class="online-list">
+                <div class="online">
+                    <img src="Socialbook_img/member-4.png" alt="">
+                </div>
+                <p> M H Alison </p>
+            </div>
+
+        </div>
+
+    </div>
+    <div class="footer">
+        <p>Copyright 2021 @Ehsanul imon</p>
+    </div>
+
+    <script src="script.js">
+    </script>
+</body>
+
+</html>
